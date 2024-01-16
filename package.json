@@ -1,0 +1,24 @@
+{
+  "name": "discord-bot-notionv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node main.js",
+    "dev": "nodemon src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^2.2.14",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "moment": "^2.30.1",
+    "nodemon": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
